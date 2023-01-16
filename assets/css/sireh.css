@@ -1,0 +1,47 @@
+
+
+#bedroom-layout{
+    padding: 10px;
+}
+
+/* #katil{
+    width:200px;
+    float:left;
+    border:1px solid #000;
+    background-color:#E2EBED;
+    padding:3px;
+    height:400px;
+} */
+
+#sireh{
+    background-image: url("../img/Sirih.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    width:100%;
+    float:right;
+    margin:2px;
+    height:450px;
+}	
+
+@media only screen and (max-width: 600px) {
+    #sireh {
+        background-image: url('../img/Sirih.jpg');
+    }
+}
+
+.draggableBox {
+    position: absolute;
+    width: 80px; height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    background-color: Thistle;
+    color: black;
+    cursor: move;
+  /* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
